@@ -8,3 +8,7 @@ def go_world():
 @app.route('/neat')
 def neat_world():
     return 'Neat, World!'
+
+@app.route('/new')
+def new_world():
+    return 'New World!'
